@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AG1 Consulting | Built For The Super Host Coach</title>
+<meta property="og:type" content="website">
+<meta property="og:title" content="Built for The Super Host Coach, by AG1 Consulting">
+<meta property="og:description" content="One clean funnel and a retention sequence that turns split checkouts into members and recurring revenue. Built before we ever get on a call.">
+<meta property="og:url" content="https://andrei170.github.io/thesuperhostcoach-hub/">
+<meta property="og:image" content="https://andrei170.github.io/thesuperhostcoach-hub/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Built for The Super Host Coach, by AG1 Consulting">
+<meta name="twitter:description" content="One clean funnel and a retention sequence for The Super Host Coach.">
+<meta name="twitter:image" content="https://andrei170.github.io/thesuperhostcoach-hub/og-image.png">
+<link rel="icon" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'&gt;&lt;text y='.9em' font-size='90'&gt;🏡&lt;/text&gt;&lt;/svg&gt;">
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  :root {
+    --black: #000000; --surface: #0A0A0F;
+    --gold-1: #D4A84B; --gold-2: #B8922E; --gold-flat: #C9973A;
+    --white: #FFFFFF; --muted: #9A9AA5; --border: rgba(255,255,255,0.10);
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter','Open Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif; background: var(--black); color: var(--white); line-height: 1.6; -webkit-font-smoothing: antialiased; overflow-x: hidden; }
+  .gold-text { background: linear-gradient(135deg, var(--gold-1), var(--gold-2)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+  .wrap { width: 100%; max-width: 1080px; margin: 0 auto; padding: 0 22px; }
+  nav { position: sticky; top: 0; z-index: 50; background: rgba(0,0,0,0.72); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px); border-bottom: 1px solid var(--border); }
+  .nav-inner { display: flex; align-items: center; justify-content: space-between; padding: 16px 22px; max-width: 1080px; margin: 0 auto; }
+  .wordmark { font-weight: 800; font-size: 1.3rem; letter-spacing: 0.5px; }
+  .wordmark .ag { background: linear-gradient(135deg, var(--gold-1), var(--gold-2)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+  .wordmark .co { color: var(--white); font-weight: 800; }
+  .nav-cta { font-size: 0.82rem; font-weight: 700; text-decoration: none; color: var(--black); background: linear-gradient(135deg, var(--gold-1), var(--gold-2)); padding: 9px 18px; border-radius: 40px; white-space: nowrap; }
+  header.hero { padding: 90px 0 70px; text-align: center; position: relative; background: radial-gradient(circle at 50% 0%, rgba(201,151,58,0.10), transparent 55%); }
+  .badge { display: inline-block; font-size: 0.74rem; font-weight: 700; letter-spacing: 1.6px; text-transform: uppercase; color: var(--gold-flat); border: 1px solid rgba(201,151,58,0.4); border-radius: 40px; padding: 8px 18px; margin-bottom: 30px; }
+  .brand-row { display: flex; align-items: center; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 26px; }
+  .brand-block { font-weight: 800; font-size: 1.8rem; letter-spacing: 0.5px; }
+  .brand-x { color: var(--muted); font-size: 1.4rem; font-weight: 400; }
+  header.hero h1 { font-size: clamp(1.9rem, 5vw, 3rem); font-weight: 800; line-height: 1.12; margin-bottom: 20px; }
+  header.hero p.sub { color: var(--muted); font-size: 1.1rem; max-width: 640px; margin: 0 auto; }
+  .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; background: var(--surface); border: 1px solid var(--border); border-radius: 18px; padding: 34px 18px; margin: 50px 0; box-shadow: 0 20px 60px rgba(0,0,0,0.5); }
+  .stat { text-align: center; }
+  .stat .num { font-size: clamp(1.8rem, 5vw, 2.6rem); font-weight: 800; line-height: 1; }
+  .stat .label { font-size: 0.82rem; color: var(--muted); margin-top: 10px; letter-spacing: 0.4px; }
+  .sec-head { text-align: center; margin: 70px 0 36px; }
+  .sec-head .eyebrow { font-size: 0.74rem; font-weight: 700; letter-spacing: 1.8px; text-transform: uppercase; color: var(--gold-flat); }
+  .sec-head h2 { font-size: clamp(1.5rem, 4vw, 2.1rem); font-weight: 800; margin-top: 12px; }
+  .acc { display: flex; flex-direction: column; gap: 16px; }
+  .card { background: rgba(10,10,15,0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid var(--border); border-radius: 16px; overflow: hidden; box-shadow: 0 12px 40px rgba(0,0,0,0.45); }
+  .acc-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 24px; cursor: pointer; user-select: none; }
+  .acc-head .left { display: flex; align-items: center; gap: 16px; }
+  .acc-num { flex-shrink: 0; width: 38px; height: 38px; border-radius: 10px; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 0.95rem; color: var(--black); background: linear-gradient(135deg, var(--gold-1), var(--gold-2)); }
+  .acc-head h3 { font-size: 1.08rem; font-weight: 800; }
+  .acc-icon { flex-shrink: 0; color: var(--gold-flat); font-size: 1.5rem; transition: transform 0.35s ease; line-height: 1; }
+  .card.open .acc-icon { transform: rotate(45deg); }
+  .acc-body { max-height: 0; overflow: hidden; transition: max-height 0.45s ease; }
+  .acc-inner { padding: 0 24px 26px; color: #D7D7DE; }
+  .acc-inner p { margin-bottom: 14px; }
+  .acc-inner p:last-child { margin-bottom: 0; }
+  .acc-inner strong { color: var(--white); }
+  .acc-inner .gold-label { color: var(--gold-flat); font-weight: 700; }
+  .item { border-left: 2px solid rgba(201,151,58,0.45); padding: 4px 0 4px 16px; margin-bottom: 18px; }
+  .item:last-child { margin-bottom: 0; }
+  .item .name { font-weight: 800; color: var(--white); display: block; margin-bottom: 4px; }
+  .item .hl { color: #C7C7D0; font-style: italic; }
+  .pill { display: inline-block; font-size: 0.72rem; font-weight: 700; letter-spacing: 0.6px; text-transform: uppercase; color: var(--gold-flat); border: 1px solid rgba(201,151,58,0.4); border-radius: 30px; padding: 4px 12px; margin-bottom: 8px; }
+  .stack-list { list-style: none; }
+  .stack-list li { padding: 7px 0 7px 26px; position: relative; border-bottom: 1px solid rgba(255,255,255,0.05); }
+  .stack-list li:last-child { border-bottom: none; }
+  .stack-list li::before { content: "+"; position: absolute; left: 0; color: var(--gold-flat); font-weight: 800; }
+  .btn-link { display: inline-block; margin-top: 16px; text-decoration: none; font-weight: 700; font-size: 0.92rem; color: var(--black); background: linear-gradient(135deg, var(--gold-1), var(--gold-2)); padding: 13px 26px; border-radius: 40px; transition: transform 0.2s ease, box-shadow 0.2s ease; }
+  .btn-link:hover { transform: translateY(-2px); box-shadow: 0 12px 30px rgba(201,151,58,0.3); }
+  .process-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 18px; }
+  .proc { background: rgba(10,10,15,0.7); backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); border: 1px solid var(--border); border-radius: 16px; padding: 26px 24px; box-shadow: 0 12px 40px rgba(0,0,0,0.4); }
+  .proc .step { font-size: 0.78rem; font-weight: 800; letter-spacing: 1px; color: var(--gold-flat); margin-bottom: 12px; }
+  .proc h4 { font-size: 1.05rem; font-weight: 800; margin-bottom: 8px; }
+  .proc p { color: var(--muted); font-size: 0.95rem; }
+  .cta-box { text-align: center; margin: 80px 0 60px; padding: 60px 30px; background: var(--surface); border: 1px solid rgba(201,151,58,0.25); border-radius: 22px; background-image: radial-gradient(circle at 50% 0%, rgba(201,151,58,0.12), transparent 60%); box-shadow: 0 24px 70px rgba(0,0,0,0.55); }
+  .cta-box h2 { font-size: clamp(1.7rem, 4.5vw, 2.4rem); font-weight: 800; margin-bottom: 16px; }
+  .cta-box p { color: var(--muted); max-width: 560px; margin: 0 auto 30px; font-size: 1.08rem; }
+  .cta-box .btn-link { font-size: 1.05rem; padding: 16px 38px; margin-top: 0; }
+  footer { text-align: center; padding: 40px 0 60px; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); }
+  footer .wordmark { font-size: 1.05rem; margin-bottom: 8px; }
+  .reveal { opacity: 0; transform: translateY(28px); transition: opacity 0.7s ease, transform 0.7s ease; }
+  .reveal.in { opacity: 1; transform: translateY(0); }
+  .model-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;}
+  .model{background:rgba(10,10,15,0.7);border:1px solid var(--border);border-radius:14px;padding:24px 22px;}
+  .model .ic{color:var(--gold-flat);font-weight:800;font-size:0.74rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:10px;display:block;}
+  .model h4{font-size:1rem;font-weight:800;margin-bottom:8px;color:var(--white);}
+  .model p{color:var(--muted);font-size:0.92rem;margin:0;}
+  .scarcity{text-align:center;color:var(--gold-flat);font-weight:700;font-size:0.95rem;margin:28px auto 0;max-width:620px;}
+  .hub-faq{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:14px;}
+  .hub-faq .qa{background:rgba(10,10,15,0.6);border:1px solid var(--border);border-radius:12px;padding:20px 22px;}
+  .hub-faq .qa h4{font-size:1rem;font-weight:800;color:var(--white);margin-bottom:6px;}
+  .hub-faq .qa p{color:var(--muted);font-size:0.93rem;margin:0;}
+  .sticky-cta{display:none;}
+  @media (max-width:720px){
+    .model-grid{grid-template-columns:1fr;}
+    body{padding-bottom:74px;}
+    .sticky-cta{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:60;background:rgba(0,0,0,0.92);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-top:1px solid var(--border);padding:12px 16px;}
+    .sticky-cta a{display:block;width:100%;text-align:center;color:var(--black);background:linear-gradient(135deg,var(--gold-1),var(--gold-2));font-weight:700;padding:14px;border-radius:40px;text-decoration:none;font-size:0.95rem;}
+  }
+  @media (max-width: 720px) { .stats { grid-template-columns: 1fr; gap: 24px; padding: 30px 18px; } .process-grid { grid-template-columns: 1fr; } .nav-cta { display: none; } header.hero { padding: 64px 0 50px; } .brand-block { font-size: 1.4rem; } }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <div class="wordmark"><span class="ag">AG1</span> <span class="co">CONSULTING</span></div>
+    <a href="https://calendly.com/ag-copy/call-with-andrei" class="nav-cta">Book a Call</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <span class="badge reveal">Built Exclusively For The Super Host Coach</span>
+    <div class="brand-row reveal">
+      <div class="brand-block"><span class="gold-text">AG1</span> <span style="color:var(--white)">CONSULTING</span></div>
+      <span class="brand-x">for</span>
+      <div class="brand-block" style="color:var(--white)">THE SUPER HOST COACH</div>
+    </div>
+    <h1 class="reveal">Turn Split Checkouts Into<br><span class="gold-text">One Funnel And Sticky Members</span></h1>
+    <p class="sub reveal">One clean path from a free guide into the 30-day bundle into the VIP membership, plus a retention sequence to fight churn and a front-end that lets you run paid traffic. Built specifically for your business.</p>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <div class="stats reveal">
+    <div class="stat"><div class="num"><span data-count="6">0</span>+</div><div class="label">Hours of Research</div></div>
+    <div class="stat"><div class="num"><span data-count="7">0</span></div><div class="label">Custom Deliverables</div></div>
+    <div class="stat"><div class="num"><span data-count="2">0</span></div><div class="label">Live Pages</div></div>
+  </div>
+
+  <div class="sec-head reveal">
+    <div class="eyebrow">The Work</div>
+    <h2>Everything We Built For You</h2>
+  </div>
+
+  <div class="acc">
+
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">1</div><h3>Research Snapshot</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <p>Your offer is not the problem. A recurring membership with weekly live calls, a 30-day bundle, and Airbnb Brand Ambassador credibility. The product and the delivery both work.</p>
+        <p>The problem is how traffic and members flow through it. Multiple Gumroad and main-site checkouts split your traffic, so there's no single clean path from follower to member, and confused people don't buy.</p>
+        <p><span class="gold-label">The core gap:</span></p>
+        <p>No retention sequence to keep $97/mo members past month one, no clear free front-end to capture cold traffic, and no self-liquidating offer to safely run paid to a smaller audience. The membership is carrying the whole thing alone.</p>
+      </div></div>
+    </div>
+
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">2</div><h3>The Build: One Funnel + Retention</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <p>We did not invent a method. We consolidated what you already sell into one clean path and added the layers that keep members.</p>
+        <p><span class="gold-label">One: A single funnel.</span> A free hosting guide into the 30 Days to Super Host bundle into the VIP membership, replacing the split Gumroad and site checkouts.</p>
+        <p><span class="gold-label">Two: A retention and onboarding sequence.</span> Gets new members a quick win and keeps them past month one, because a monthly membership lives or dies on churn.</p>
+        <p><span class="gold-label">Three: A self-liquidating front-end.</span> So the membership wedge can be amplified with paid traffic safely.</p>
+        <p><span class="gold-label">What we built around it:</span></p>
+        <ul class="stack-list">
+          <li>A dedicated opt-in and sales page in a warm hosting brand</li>
+          <li>One clean path from free guide to bundle to VIP</li>
+          <li>Five campaign angles in your voice</li>
+          <li>Three ad scripts to bring hosts into the funnel</li>
+          <li>A retention sequence to keep members sticky</li>
+        </ul>
+        <p style="margin-top:14px;">The result: a captured email list, less churn, and a funnel you can safely run paid traffic to.</p>
+      </div></div>
+    </div>
+
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">3</div><h3>Campaign Angles (5)</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <div class="item"><span class="name">1. Booked Out, Not Burned Out</span><span class="hl">"Get your listing booked and reviewed without hosting becoming a second job."</span></div>
+        <div class="item"><span class="name">2. The Road To Superhost</span><span class="hl">"The exact levers that get hosts to Superhost status, from an Airbnb Brand Ambassador."</span></div>
+        <div class="item"><span class="name">3. 30 Days To Super Host</span><span class="hl">"A simple month-long plan to turn a struggling listing into a booked-out one."</span></div>
+        <div class="item"><span class="name">4. Start With The Free Guide</span><span class="hl">"Grab the hosting guide, fix the basics, then go all in with VIP."</span></div>
+        <div class="item"><span class="name">5. Hosting Help, Every Week</span><span class="hl">"A membership with weekly live calls, so you're never guessing on your own."</span></div>
+      </div></div>
+    </div>
+
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">4</div><h3>Ad Script Concepts (3)</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <div class="item"><span class="pill">Direct Response</span><p><strong>Hook:</strong> "If your Airbnb isn't getting booked the way you hoped, this is for you."</p><p>I'm an Airbnb Brand Ambassador, and I put the first fixes into a free hosting guide: the listing, pricing, and review levers that move bookings. Start there, then go deeper with the 30-day plan and VIP.</p><p><strong>CTA:</strong> Get the free hosting guide.</p></div>
+        <div class="item"><span class="pill">Proof-Led</span><p><strong>Hook:</strong> "Airbnb made me a Brand Ambassador. Here's where I tell a new host to start."</p><p>Not the membership on day one. Start with the free guide, fix the basics, then join VIP for weekly help.</p><p><strong>CTA:</strong> Get the guide, free.</p></div>
+        <div class="item"><span class="pill">Value-First</span><p><strong>Hook:</strong> "The reason most listings don't get booked? Three fixable things."</p><p>Here's the first one, the thing I'd change today. It's the opening of the free guide.</p><p><strong>CTA:</strong> Get the free hosting guide.</p></div>
+      </div></div>
+    </div>
+
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">5</div><h3>Sales Page Preview</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <p>A full opt-in and sales page for the free guide and the VIP membership, in a warm hosting brand. It opens on the "wanted passive income, got a second job" pain, walks through the listing, pricing, and experience levers, lays out what's inside the guide and VIP, and drives to one clean path from free to membership.</p>
+        <p>It's live and ready to view right now.</p>
+        <a href="https://andrei170.github.io/thesuperhostcoach-landing/" class="btn-link" target="_blank" rel="noopener">View the live sales page</a>
+      </div></div>
+    </div>
+
+    <div class="card reveal">
+      <div class="acc-head"><div class="left"><div class="acc-num">6</div><h3>Funnel Outline</h3></div><span class="acc-icon">+</span></div>
+      <div class="acc-body"><div class="acc-inner">
+        <div class="item"><span class="name">Beat 1: Hook</span><span class="hl">Get your listing booked and reviewed, the right way.</span></div>
+        <div class="item"><span class="name">Beat 2: Problem</span><span class="hl">Low bookings, fear of bad reviews, hosting feels like a second job.</span></div>
+        <div class="item"><span class="name">Beat 3: Mechanism</span><span class="hl">The Super Host method, from a free guide to the 30-day bundle to VIP.</span></div>
+        <div class="item"><span class="name">Beat 4: Credibility</span><span class="hl">Airbnb Brand Ambassador, VIP membership with weekly live calls.</span></div>
+        <div class="item"><span class="name">Beat 5: Offer</span><span class="hl">A free guide, the 30-day bundle, and the VIP membership.</span></div>
+        <div class="item"><span class="name">Beat 6: CTA</span><span class="hl">Get the free guide, step up to VIP when ready.</span></div>
+      </div></div>
+    </div>
+
+  </div>
+
+  <div class="sec-head reveal">
+    <div class="eyebrow">How We Work</div>
+    <h2>Done For You. One Operator.</h2>
+  </div>
+
+  <div class="process-grid">
+    <div class="proc reveal"><div class="step">STEP 01</div><h4>We Build One Clean Funnel</h4><p>The free guide, the opt-in page, and a single path to VIP, replacing the split checkouts, all in your brand.</p></div>
+    <div class="proc reveal"><div class="step">STEP 02</div><h4>We Wire Retention</h4><p>The onboarding and retention email sequence that keeps new members past month one, plugged into your stack.</p></div>
+    <div class="proc reveal"><div class="step">STEP 03</div><h4>We Make It Ad-Ready</h4><p>A self-liquidating front-end so you can run paid traffic to the membership wedge safely.</p></div>
+    <div class="proc reveal"><div class="step">STEP 04</div><h4>You Coach, We Run the Machine</h4><p>You keep running your calls and content. The funnel keeps capturing, converting, and retaining without you touching it.</p></div>
+  </div>
+
+  <div class="sec-head reveal">
+    <div class="eyebrow">How We'd Work</div>
+    <h2>Simple Terms. Skin In The Game.</h2>
+  </div>
+  <div class="model-grid">
+    <div class="model reveal"><span class="ic">The model</span><h4>A setup fee, then revenue share</h4><p>A one-time build fee to stand it all up, then a share of the new revenue it generates. I only win when you win.</p></div>
+    <div class="model reveal"><span class="ic">One operator</span><h4>You deal with me, not a team</h4><p>I build and run the whole machine myself with AI leverage. One point of contact, fast turnaround, nothing lost in handoffs.</p></div>
+    <div class="model reveal"><span class="ic">Proven</span><h4>Over $1M generated, solo</h4><p>I built a full monetization system from zero for a creator with 180K followers: offer, funnel, email, and community, in weeks.</p></div>
+  </div>
+  <p class="scarcity reveal">I only take on a handful of clients at a time, so I can stay hands-on with every build.</p>
+
+  <div class="sec-head reveal">
+    <div class="eyebrow">Straight Answers</div>
+    <h2>What You're Probably Wondering</h2>
+  </div>
+  <div class="hub-faq">
+    <div class="qa reveal"><h4>How much does this cost?</h4><p>A setup fee plus revenue share, scoped to what we build. We talk real numbers on the call, once I understand your business. No retainer, no surprises.</p></div>
+    <div class="qa reveal"><h4>How fast can you build it?</h4><p>Fast. These pages were built before we ever spoke. A full funnel, page, and retention flow are usually live in a week or two, not months.</p></div>
+    <div class="qa reveal"><h4>What do you need from me?</h4><p>Your offer and your voice. I handle the building, the tech, the copy, and the email wiring. You stay focused on coaching.</p></div>
+    <div class="qa reveal"><h4>Why revenue share?</h4><p>Because it aligns us. I do not earn the upside unless the funnel actually makes you money. My incentive is your result.</p></div>
+  </div>
+
+  <div class="cta-box reveal">
+    <h2>Ready to build this for real?</h2>
+    <p>Everything above was built specifically for you, Ciara. Imagine your membership with one clean funnel and a retention flow keeping every member.</p>
+    <a href="https://calendly.com/ag-copy/call-with-andrei" class="btn-link" target="_blank" rel="noopener">Book a call with Andre</a>
+    <p style="color:var(--muted);font-size:0.92rem;margin:14px 0 0;">Not ready for a call? Just reply and tell me what you think.</p>
+    <p style="color:var(--gold-flat);font-weight:700;font-size:0.9rem;margin:14px 0 0;letter-spacing:.02em;">Over $1M in client revenue generated. One operator.</p>
+  </div>
+
+</div>
+
+<div class="sticky-cta"><a href="https://calendly.com/ag-copy/call-with-andrei">Book a call with Andre</a></div>
+
+<footer>
+  <div class="wordmark"><span class="ag gold-text">AG1</span> <span class="co">CONSULTING</span></div>
+  <div>High-ticket offers and marketing systems, done for you.</div>
+</footer>
+
+<script>
+  document.querySelectorAll('.acc-head').forEach(function(h){
+    h.addEventListener('click', function(){
+      var card = h.parentElement;
+      var body = card.querySelector('.acc-body');
+      var isOpen = card.classList.contains('open');
+      if (isOpen) { body.style.maxHeight = null; card.classList.remove('open'); }
+      else { card.classList.add('open'); body.style.maxHeight = body.scrollHeight + 'px'; }
+    });
+  });
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } });
+  }, { threshold: 0.12 });
+  document.querySelectorAll('.reveal').forEach(function(el){ io.observe(el); });
+  function runCount(el){
+    var target = parseInt(el.getAttribute('data-count'), 10);
+    var start = null, dur = 1100;
+    function step(ts){ if (!start) start = ts; var p = Math.min((ts - start) / dur, 1); el.textContent = Math.floor(p * target); if (p < 1) requestAnimationFrame(step); else el.textContent = target; }
+    requestAnimationFrame(step);
+  }
+  var countObserved = false;
+  var statObserver = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){ if (e.isIntersecting && !countObserved){ countObserved = true; document.querySelectorAll('[data-count]').forEach(runCount); } });
+  }, { threshold: 0.4 });
+  var statsEl = document.querySelector('.stats');
+  if (statsEl) statObserver.observe(statsEl);
+</script>
+</body>
+</html>
